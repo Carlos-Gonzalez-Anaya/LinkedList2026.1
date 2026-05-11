@@ -3,9 +3,10 @@
   <Class Name="SimpleList.SinglyLinkedList&lt;T&gt;">
     <Position X="8.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAEAgAABAAAAAAAAAAAAAAAAAARAAA=</HashCode>
+      <HashCode>AAAAAAAAAAQAAAAEAgAABAAAAAAAAAAAAAACAAARAAA=</HashCode>
       <FileName>SinglyLinkedList.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="SimpleList.Node&lt;T&gt;">
     <Position X="6.25" Y="1.5" Width="1.5" />
@@ -14,5 +15,12 @@
       <FileName>Node.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="SimpleList.ISinglyLinkedList&lt;T&gt;">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAgAABAAAAAAAAAAAAAACAAAQAAA=</HashCode>
+      <FileName>ISinglyLinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

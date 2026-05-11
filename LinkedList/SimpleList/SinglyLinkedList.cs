@@ -1,12 +1,12 @@
 ﻿namespace SimpleList
 {
-    public class SinglyLinkedList<T>
+    public class SinglyLinkedList<T> : ISinglyLinkedList<T>
     {
         private Node<T>? _head;
 
         public SinglyLinkedList()
         {
-            _head = null;   
+            _head = null;
         }
 
         override public string ToString()
@@ -25,7 +25,7 @@
         public void InsertAtBegginning(T data)
         {
             var newNodo = new Node<T>(data);
-            newNodo.Next= _head;
+            newNodo.Next = _head;
             _head = newNodo;
         }
 
@@ -64,18 +64,18 @@
             if (_head == null) return;
             if (_head.Data != null && _head.Data.Equals(data))
             {
-                _head=_head.Next;
+                _head = _head.Next;
                 return;
             }
             var current = _head;
-            while(current.Next != null)
+            while (current.Next != null)
             {
                 if (current.Next.Data != null && current.Next.Data.Equals(data))
                 {
                     current.Next = current.Next.Next;
                     return;
                 }
-                current= current.Next;
+                current = current.Next;
             }
         }
 
@@ -83,7 +83,7 @@
         public void Reverse()
         {
             Node<T>? previous = null;
-            var current =_head;
+            var current = _head;
             while (current != null)
             {
                 var next = current.Next;

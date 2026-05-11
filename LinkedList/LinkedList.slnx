@@ -1,4 +1,6 @@
 <Solution>
-  <Project Path="LinkedList.console/LinkedList.console.csproj" Id="07a3668b-5409-4a4e-9ff2-baf6134efad5" />
-  <Project Path="SimpleList/SimpleList.csproj" Id="6f1a4dfa-ecfb-4ddb-b3f4-d77f02d8c6fa" />
+  <Project Path="../../../../../../Documents/cursos/Estructura de Datos/LinkedList/LinkedList/doubleList/doubleList.csproj" Id="9527315a-d12d-4662-9fe8-d90e1337be84" DisplayName="DoubleList" />
+  <Project Path="../../../../../../Documents/cursos/Estructura de Datos/LinkedList/LinkedList/LinkedList.console/LinkedList.console.csproj" Id="07a3668b-5409-4a4e-9ff2-baf6134efad5" />
+  <Project Path="../../../../../../Documents/cursos/Estructura de Datos/LinkedList/LinkedList/Shared/Shared.csproj" Id="9394a9e9-7470-4ac0-a2db-8d07e8fa909c" />
+  <Project Path="../../../../../../Documents/cursos/Estructura de Datos/LinkedList/LinkedList/SimpleList/SimpleList.csproj" Id="6f1a4dfa-ecfb-4ddb-b3f4-d77f02d8c6fa" />
 </Solution>
